@@ -103,7 +103,7 @@ public class Maze
         
         if(!solved)
         {
-            System.out.println("MESSAGE 5"); // Did not reach the end.
+            System.out.println("You have failed to escape. Future archaelogists gaze upon your remains in bafflement."); // Did not reach the end.
         }
         
         Viewer.view(grid);
